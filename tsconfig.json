@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "types": ["node", "vite/client", "vue", "vue-i18n"],
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "src/*",
+    "electron/**/*"
+  ],
+  "exclude": ["node_modules"],
+  "vueCompilerOptions": {
+    "globalTypesPath": "src/renderer/shims-vue.d.ts"
+  }
+}
