@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+publish/
+out/
+release/
+
+# Electron / builder artifacts
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.blockmap
+*.zip
+*.tar.gz
+*.asar
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files
+.env
+.env.*
+
+# Temporary directories
+tmp/
+.temp/
+.temp-
+
+# Coverage / reports
+coverage/
+reports/
+
+# Generated assets
+*.local
+
+# Ignore temporary daily changelog snapshots (kept locally only)
+/CHANGELOG-*.md
